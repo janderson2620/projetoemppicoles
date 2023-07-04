@@ -120,7 +120,6 @@ CREATE TABLE funcionario_lotes (
   FOREIGN KEY (id_gerente) REFERENCES gerente (id),
   FOREIGN KEY (id_funcionario) REFERENCES funcionarios (id));
   
-  select * from lotes;
 
 CREATE TABLE notas_fiscais (
   id INT NOT NULL,
